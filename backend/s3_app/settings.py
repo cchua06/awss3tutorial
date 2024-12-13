@@ -27,8 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-# AWS_ACCESS_KEY_ID = "your-aws-access-key"
-# AWS_SECRET_ACCESS_KEY = "your-aws-secret-key"
+#Include your AWS access key and secret key here
 AWS_STORAGE_BUCKET_NAME = "your-s3-bucket-name"
 AWS_S3_REGION_NAME = "your-region"
 AWS_S3_CUSTOM_DOMAIN = f"{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com"
