@@ -27,10 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-AWS_ACCESS_KEY_ID = "AKIAU4JCBJAORSBUKG6Y" #"your-aws-access-key"
-AWS_SECRET_ACCESS_KEY = "6+XGBni8zDbclrVPEYHyUXni6rsgQzBXR3DX610p" #"your-aws-secret-key"
-AWS_STORAGE_BUCKET_NAME = "s3appdemocchua" #"your-s3-bucket-name"
-AWS_S3_REGION_NAME = "us-east-1" #"your-region"
+AWS_ACCESS_KEY_ID = "your-aws-access-key"
+AWS_SECRET_ACCESS_KEY = "your-aws-secret-key"
+AWS_STORAGE_BUCKET_NAME = "your-s3-bucket-name"
+AWS_S3_REGION_NAME = "your-region"
 AWS_S3_CUSTOM_DOMAIN = f"{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com"
 
 # File storage settings
