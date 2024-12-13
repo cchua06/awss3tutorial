@@ -14,7 +14,7 @@ Follow this tutorial to get started with AWS and to set up your first S3 bucket:
 
 ## Connecting S3 Bucket with Django
 
-Within your Django app (s3_app), navigate to your settings.py. Within it, populate it with the following settings:
+Within your Django app (s3_app), navigate to your settings.py. Within it, fill out the following fields (uncommenting out AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY):
 
 ```
 AWS_ACCESS_KEY_ID = "your-aws-access-key"
