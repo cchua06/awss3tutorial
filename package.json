@@ -1,0 +1,16 @@
+{
+  "name": "aws-s3-tutorial",
+  "version": "1.0.0",
+  "description": "A React + Django web app for file uploading and retrieval using AWS S3 buckets.",
+  "author": "Cedric Chua",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "vite": "^6.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
